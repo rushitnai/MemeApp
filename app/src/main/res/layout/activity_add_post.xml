@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPost">
+    <ImageButton
+        android:layout_height="350dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/baseline_add_black_48"
+        android:id="@+id/btn_addpost"
+        android:background="@drawable/bg"
+        android:layout_width="match_parent" />
+
+    <EditText
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_addpost"
+        android:background="@drawable/bg"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:id="@+id/et_caption"
+        android:textColorHint="#8d000000"
+        android:hint="Write Caption Here.."
+        />
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D80A14CC"
+        android:text="submit post"
+        android:textStyle="italic"
+        android:textColor="#ffff"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

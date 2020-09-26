@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_addpost"
+        android:title="add post"
+        app:showAsAction="always"
+
+        ></item>
+    <item android:id="@+id/action_setting"
+        android:title="profile"
+        app:showAsAction="never"
+
+        ></item>
+    <item
+        android:id="@+id/logout"
+        android:title="log out"
+        app:showAsAction="always"
+        />
+</menu>

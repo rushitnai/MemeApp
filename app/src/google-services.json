@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "286335516833",
+    "firebase_url": "https://memeapp-cedbf.firebaseio.com",
+    "project_id": "memeapp-cedbf",
+    "storage_bucket": "memeapp-cedbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286335516833:android:4353b5c0c6ef93b62e30e0",
+        "android_client_info": {
+          "package_name": "com.example.memeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286335516833-k559ile805rsul6mfjqfmj1qfohkri3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDcjHcMndWjAzbbyzWuwRbNCXDgQgmFkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286335516833-k559ile805rsul6mfjqfmj1qfohkri3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

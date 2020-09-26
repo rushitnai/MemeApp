@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feed">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/optionmenu"
+        tools:targetApi="LOLLIPOP"
+        android:background="@color/colorPrimary"
+        android:title="@string/app_name"
+        >
+
+    </Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="50dp"
+        android:id="@+id/postlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp"
+        android:text="rush it to me"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

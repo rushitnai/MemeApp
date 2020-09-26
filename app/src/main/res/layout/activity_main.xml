@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MemeApp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textSize="28sp"
+        android:id="@+id/tv_welcome"
+        android:textStyle="italic"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_welcome"
+        android:hint="   email"
+        android:background="@drawable/bg"
+        android:paddingLeft="8dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:textStyle="italic"
+
+        android:id="@+id/et_email1"
+        />
+    <EditText
+        android:paddingLeft="8dp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="   password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:textStyle="italic"
+        android:background="@drawable/bg"
+        android:layout_below="@+id/et_email1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_password"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_below="@id/et_password"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button"
+        android:textColor="#ffff"
+        android:id="@+id/btn_login"
+        android:layout_alignLeft="@+id/et_password"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_below="@+id/btn_login"
+        android:id="@+id/tv_forgot_pass"
+        android:layout_alignLeft="@+id/btn_login"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:id="@+id/tv_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User? Sign Up Here"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_below="@+id/tv_forgot_pass"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        />
+
+</RelativeLayout>
