@@ -3,11 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:background="#555252"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
     android:layout_marginTop="25dp"
     android:layout_height="wrap_content">
     <LinearLayout
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -28,8 +29,8 @@
         <ImageView
             android:layout_marginTop="1dp"
             android:src="@color/colorPrimary"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_width="382dp"
+            android:layout_height="382dp"
             android:id="@+id/field_post_image"/>
         <TextView
             android:layout_marginTop="5dp"

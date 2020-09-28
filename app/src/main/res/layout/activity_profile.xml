@@ -6,13 +6,11 @@
     android:layout_height="match_parent"
     android:background="@drawable/login_bg"
     tools:context=".Profile">
-<!--    android:id="@+id/tv_username"-->
-<!--    android:id="@+id/tv_email"-->
-<!--    android:id="@+id/tv_uid"-->
+
 
     <ImageView
         android:layout_width="100dp"
-        android:src="@mipmap/ic_launcher_round"
+        android:src="@drawable/profile_pic"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:id="@+id/dp"
@@ -42,7 +40,7 @@
             android:textSize="20sp"
             android:background="@drawable/bg"
             android:textColor="#000"
-            android:text="Username"/>
+            android:text=" Username"/>
     </LinearLayout>
     <LinearLayout
         android:layout_height="wrap_content"
@@ -69,7 +67,7 @@
             android:textSize="20sp"
             android:background="@drawable/bg"
             android:textColor="#000"
-            android:text="Username"/>
+            android:text=" E-mail"/>
     </LinearLayout>
     <LinearLayout
         android:layout_height="wrap_content"
@@ -96,7 +94,7 @@
             android:id="@+id/tv_uid"
             android:background="@drawable/bg"
             android:textColor="#000"
-            android:text="Username"/>
+            android:text=" User Id"/>
     </LinearLayout>
     <LinearLayout
         android:layout_height="wrap_content"
@@ -123,7 +121,7 @@
             android:id="@+id/tv_gender"
             android:background="@drawable/bg"
             android:textColor="#000"
-            android:text="Username"/>
+            android:text=" Gender"/>
     </LinearLayout>
     <Button
         android:padding="5dp"
